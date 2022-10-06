@@ -1,0 +1,19 @@
+age : age of persons
+sex : gender of persons 0 = Male, 1=Female
+cp : chest pain type (4 values)
+trtbps : resting blood pressure
+chol : serum cholestrol in mg/dl
+fbs : fasting blood sugar > 120 mg/dl
+restecg : resting electrocardio results(values 0,1,2)
+thalachh : maximum heart rate achieved
+exng : exercise induced angina
+oldpeak : ST depression induced by exercise relative to rest
+slp : the slope of the peak exercise ST segment 0= up 1=up 2=down
+caa : number of major vessels(0-3) colored by flourosopy
+thall : 0=normal, 1=fixed defect, 2 = reversable defect
+output : Target column, 1 = Diseased, 0 = Not Diseased
+
+
+Objective:
+Do classification(Diseased or Not Diseased) on this data and choose the best model with highest accuracy.
+
